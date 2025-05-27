@@ -1,0 +1,77 @@
+/* frontend/styles/TaskDetails.module.css */
+
+.container {
+  height: 96vh; /* Full height */
+  width: 99vw; /* Full width */
+  background-color: rgb(38, 25, 60);
+  color: #f0f0f0;
+  padding: 40px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center content */
+  align-items: center; /* horizontally center content */
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffd633;
+}
+
+.text {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.statusSection {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(70, 40, 120);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #ffd633;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #e6c200;
+}
+
+.message {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(38, 25, 60);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}

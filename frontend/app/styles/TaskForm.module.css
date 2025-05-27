@@ -1,0 +1,48 @@
+.form {
+  /* lighter purple */
+  padding: 20px;
+  border-radius: 8px;
+  color: #f0f0f0;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.input,
+.textarea,
+.select,
+.date {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(38, 25, 60);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.button {
+  background-color: #ffd633; /* bright yellow */
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:disabled {
+  background-color: #e6c200;
+  cursor: not-allowed;
+}

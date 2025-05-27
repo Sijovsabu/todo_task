@@ -1,0 +1,73 @@
+.headerBar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+.main {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  background-color: rgb(43, 30, 66);
+  height: 89vh;
+  padding: 20px;
+}
+.right {
+  flex: 1;
+  background-color: rgb(40, 27, 52);
+}
+.filterContainer {
+  margin-bottom: 20px;
+}
+
+.filterContainer label,
+.filterContainer select {
+  margin-right: 10px;
+}
+
+.filterContainer select {
+  background-color: rgb(38, 25, 60); /* lighter purple */
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 5px 10px;
+}
+
+.filterContainer button {
+  background-color: #ffd633; /* bright yellow */
+  border: none;
+  padding: 6px 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem {
+  background-color: rgb(70, 40, 120);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.taskLink {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.taskLink:hover {
+  text-decoration: underline;
+}
+
+.formTitle {
+  margin-bottom: 15px;
+}
